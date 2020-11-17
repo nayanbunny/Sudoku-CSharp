@@ -3,9 +3,10 @@ Sudoku Game Generator, Validator, and Solver with Easy, Medium and Hard Modes. A
 
 <br />
 
-![Sudoku Game 4x4](src/images/sudoku-4x4.png) | ![Sudoku Game 4x4 Numpad](src/images/sudoku-4x4-numpad.png)<br /><br />
-
-![Sudoku Game 9x9](src/images/sudoku-9x9.png) | ![Sudoku Game 9x9 Numpad](src/images/sudoku-9x9-numpad.png)
+![Sudoku Game 4x4](https://raw.githubusercontent.com/nayanbunny/Sudoku-CSharp/main/src/images/sudoku-4x4.png)
+![Sudoku Game 4x4 Numpad](https://raw.githubusercontent.com/nayanbunny/Sudoku-CSharp/main/src/images/sudoku-4x4-numpad.png)
+![Sudoku Game 9x9](https://raw.githubusercontent.com/nayanbunny/Sudoku-CSharp/main/src/images/sudoku-9x9.png)
+![Sudoku Game 9x9 Numpad](https://raw.githubusercontent.com/nayanbunny/Sudoku-CSharp/main/src/images/sudoku-9x9-numpad.png)
 <br />
 
 ## License
