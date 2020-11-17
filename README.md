@@ -13,4 +13,4 @@ Sudoku Game Generator, Validator, and Solver with Easy, Medium and Hard Modes. A
 [MIT](https://github.com/nayanbunny/Sudoku-CSharp/blob/main/LICENSE)
 
 ## Support
-(Like the Game) => :star: Sudoku-CSharp repository
+(Like the Game) => :star: [The Sudoku-CSharp Repository](https://github.com/nayanbunny/Sudoku-CSharp)
