@@ -42,7 +42,7 @@ namespace Sudoku.Helpers
         /// <summary>
         /// Generates the Sudoku Grid.
         /// </summary>
-        /// <returns><c>true</c> if the sudoku gird is generated; otherwise, <c>false</c>.</returns>
+        /// <returns><c>true</c> if the sudoku grid is generated; otherwise, <c>false</c>.</returns>
         public bool Generate()
         {
             solver.Solve();
@@ -58,9 +58,9 @@ namespace Sudoku.Helpers
         {
             var cellValueIndexes = (mode, grid.GridSize) switch
             {
-                (FormConstants.Hard, 9) => GenerateRandomIndexes(random.Next(7, 14)),
-                (FormConstants.Medium, 9) => GenerateRandomIndexes(random.Next(15, 24)),
-                (FormConstants.Easy, 9) => GenerateRandomIndexes(random.Next(24, 31)),
+                (FormConstants.Hard, 9) => GenerateRandomIndexes(random.Next(16, 24)),
+                (FormConstants.Medium, 9) => GenerateRandomIndexes(random.Next(24, 31)),
+                (FormConstants.Easy, 9) => GenerateRandomIndexes(random.Next(31, 39)),
                 (FormConstants.Hard, 4) => GenerateRandomIndexes(random.Next(1, 4)),
                 (FormConstants.Medium, 4) => GenerateRandomIndexes(random.Next(4, 7)),
                 _ => GenerateRandomIndexes(random.Next(5, 9))
